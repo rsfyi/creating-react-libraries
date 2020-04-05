@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# adding dependencies to avoid pushing build files
+/lib
+
+#built docs
+/docs
+
+# Generated component data
+/config/componentData.js
+
+# webstrom
+.idea
